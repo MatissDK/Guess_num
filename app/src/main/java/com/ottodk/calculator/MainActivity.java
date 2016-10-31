@@ -30,12 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    /**
-     * @return
-     */
+   
     private int generateNumber() {
         Random random = new Random();
-        return random.nextInt(20);
+        return random.nextInt(20) + 1;
     }
 
     private void makeToast(String text) {
